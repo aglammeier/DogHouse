@@ -1,0 +1,16 @@
+#linkHeader {
+    z-index: 0;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    background-color:black
+}
+.Link {
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,20 @@
+#welcomeHome {
+    font-size: 100px;
+
+}
+
+#homePage {
+    display:grid;
+    justify-content: center;
+
+}
+
+#testButton {
+    height: 50px;
+    font-size: 30px;
+
+}
+
+#testDiv {
+    font-size: 20px;
+}

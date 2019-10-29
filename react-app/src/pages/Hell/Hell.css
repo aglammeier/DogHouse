@@ -1,0 +1,99 @@
+#hellHeaderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    z-index: 2;
+}
+
+#hellHeader{
+    font-size: 80px;
+    color: red;
+    animation: 5s linear infinite alternate crazyHeaders;
+}
+#hellHeader2{
+    font-size: 60px;
+    color: blue;
+    animation: 4s linear infinite alternate crazyHeaders;
+}
+#hellHeader3{
+    font-size: 40px;
+    color: yellow;
+    animation: 3s linear infinite alternate crazyHeaders;
+}
+#hellHeader4{
+    font-size: 20px;
+    color: green;
+    animation: 2s linear infinite alternate crazyHeaders;
+}
+#hellComponents{
+    display: flex; 
+    justify-content: space-evenly;
+    z-index: 1;
+    font-size: 50px;
+    animation: 1s linear infinite alternate crazyContainer;
+}
+#dayButton {
+    font-size: 50px;
+}
+
+#timeButton {
+    font-size: 50px;
+}
+
+#divTime{
+    animation: 3s linear infinite crazyComponents;
+    display: grid;
+}
+#divDay{
+    animation: 3s linear infinite crazyComponents;
+    display: grid;
+
+}
+#divColor{
+    animation: 3s linear infinite crazyComponents;
+    display: grid;
+}
+
+#favColor{
+    animation: 10s linear infinite alternate crazyFavColor;
+
+}
+
+@keyframes crazyComponents {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes crazyContainer {
+    from {
+        transform: translate(0, 0vh);
+    }
+    to {
+        transform: translate(0, 50vh);
+        
+    }
+}
+
+@keyframes crazyFavColor {
+    from {
+        transform: translate(30vw, 0vh)
+    }
+    100% {
+        transform: translate(-30vw, 0vh)
+    }
+}
+
+@keyframes crazyHeaders {
+    from {
+        transform: translate(0vh, -30vh);
+    }
+    to {
+        transform: translate(0vh, 30vh);
+    }
+}
+
+
